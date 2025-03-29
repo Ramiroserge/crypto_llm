@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: coindesk_app
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python app/main.py
