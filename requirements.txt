@@ -7,17 +7,8 @@ seaborn
 # ML / NLP
 scikit-learn
 transformers
-torch
-sentence-transformers
-nltk
-spacy
-textblob
 
 # Utilities
 requests
 python-dotenv
 tqdm
-
-# Notebook Support
-jupyter
-ipykernel
